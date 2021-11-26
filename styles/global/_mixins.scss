@@ -1,0 +1,40 @@
+//Media query manager
+/*
+0 - 600px:      Phone
+600 - 900px:    Tables Portatil
+900 - 1200px:   Tablet landscape
+[1200 - 1800]   Is the normal size
+1800px + :      Big Desktop  
+//$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+//Unidades de medida
+1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == phone-small {
+        @media (max-width: 23.4em) { @content }; //375px
+    }
+    @if $breakpoint == phone {
+        @media (max-width: 30em) { @content }; //480px
+    }
+    @if $breakpoint == phone-big { 
+        @media (max-width: 37.5em) { @content }; //600px
+    }
+    @if $breakpoint == phone-tab {
+        @media (max-width: 50em) { @content };    //800px
+    }
+    @if $breakpoint == tab-port { 
+        @media (max-width: 56.25em) { @content };    //900px
+    }
+    @if $breakpoint == laptop { 
+        @media (max-width: 75em) { @content };   //1200px
+    }
+    @if $breakpoint == big-desktop { 
+        @media (min-width: 112.5em) { @content };   //1800px
+    }
+}

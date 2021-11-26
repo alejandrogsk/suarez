@@ -1,0 +1,8 @@
+{
+    "title": "alejandro suarez",
+    "navigation": [
+        { "title": "home", "path": "home" },
+        { "title": "proyectos", "path": "projects" },
+        { "title": "tecnologías", "path": "technologies" }
+    ]
+}

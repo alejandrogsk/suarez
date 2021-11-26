@@ -1,0 +1,53 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    color: $c-white;
+    padding: 1rem 8rem 0 8rem;
+
+    @include respond( laptop ) { padding: 1rem 6rem 0 6rem; }
+    @include respond( tab-port ) { padding: 1rem 4rem 0 4rem; }
+    @include respond( phone-tab ) { padding: 1rem 2rem 0 2rem;}
+
+    &__title {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        display: flex;
+
+        &--menu { 
+            display: flex;
+            list-style: none;
+    
+            & > li {
+                margin-left: .5rem;
+                
+                & > a {
+                    cursor: pointer;
+                    color: $c-white;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        color: $c-blue
+                    }
+                }
+            }
+        }
+
+        &--lang {
+            cursor: pointer;
+            margin-left: .5rem;
+            color: $c-blue-dark;
+            text-transform: uppercase;
+            @include respond( phone-tab ) { font-size: 1.25rem; color: $c-white;}
+        }
+    }
+}
+
+.navigation__hide {
+    @include respond( phone-tab ) { display: none;}
+}

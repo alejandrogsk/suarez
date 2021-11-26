@@ -1,0 +1,164 @@
+.navbar__responsive {
+
+    &--checkbox {
+        display: none;
+    }
+
+    &--button {
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.14);
+        cursor: pointer;
+        height: 3rem;
+        position: fixed;
+        right: 1rem;
+        text-align: center;
+        top: 1rem;
+        width: 3rem;
+        z-index: 200;
+    }
+
+    &--background {
+        background-image: radial-gradient($c-blue-light, $c-blue);
+        border-radius: 50%;
+        height: 2rem;
+        position: fixed;
+        right: 1.5rem;
+        top: 1.5rem;
+        transition: transform .8s cubic-bezier(.36,-0.08,0,1.4);
+        width: 2rem;
+        z-index: 100;
+
+        //transform: scale(50);
+    }
+
+    &--nav {
+        background-color: $c-blue;
+        height: 100vh;
+
+        position: fixed;
+        /*Con right y left definimos la dirección de entrada
+        y salida del menu*/
+        //right: 0;
+        left: 0;
+        top: 0;
+        transition: all .8s cubic-bezier(.36,-0.08,0,1.4);
+        width: 0;
+        z-index: 150;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    &--list {
+        left: 50%;
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+    }
+
+    &--item {
+        padding: 1rem;
+    }
+
+    &--link {
+        font-size: 1.25rem;
+        text-transform: capitalize;
+        cursor: pointer;
+        &:link,
+        &:visited {
+            background-image: linear-gradient(120deg, transparent 0%, $c-blue 50%, $c-white 50%);
+            background-size: 230%;
+            color: $c-white;
+            display: inline-block;
+            font-size: 2rem;
+            font-weight: 400;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            text-transform: none;
+            
+            transition: all .4s;
+        }
+
+        &:hover,
+        &:active {
+            background-position: 100%;
+            color: $c-white;
+            transform: translateX(1rem);
+        }
+
+
+
+    }
+
+    //Funcionalidad
+    &--checkbox:checked ~ &--background {
+        transform: scale(50);
+    }
+
+    &--checkbox:checked ~ &--nav {
+        //display: block;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    //Icon
+    &--icon {
+        margin-top: 1.5rem;
+        position: relative;
+
+        &,
+        &::before,
+        &::after {
+            background-color: $c-blue;
+            display: inline-block;
+            height: 2px;
+            width: 2rem;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            left: 0;
+            position: absolute;
+            transition: all .2s;
+        }
+
+        &::before { top: -.5rem; }
+        &::after {top: .5rem; }
+    }
+
+    &--button:hover &--icon::before {
+        top: -.5rem;
+
+    }
+    &--button:hover &--icon::after {
+        top: .5rem;
+
+    }
+
+    //Icono de cruz
+    &--checkbox:checked + &--button &--icon{
+        background-color: transparent;
+    }
+
+    &--checkbox:checked + &--button &--icon::before{
+        top: 0;
+        transform: rotate(315deg);
+    }
+
+    &--checkbox:checked + &--button &--icon::after{
+        top: 0;
+        transform: rotate(-315deg);
+    }
+}
+
+.d-n {
+    display: none;
+    @include respond( phone-tab ) {
+        display:block;
+    }
+}

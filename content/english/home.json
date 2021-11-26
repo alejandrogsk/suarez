@@ -1,0 +1,166 @@
+{
+
+    "section1": {
+        "image":"https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "h1": "Hola, soy Alejandro",
+        "h2": {
+            "start": "Soy un programador argentino, especializado en desarrollo web ",
+            "end": "full satack"
+        },
+        "button": {
+            "title": "descargar cv",
+            "path": "#"
+        }
+    },
+    "section2": {
+        
+        "projects": [
+            {
+                "image": "/images/photos/test.jpg",
+                "thematic": "Ecommerce",
+                "title": "Tienda online desarrollada utilizando  Php, Javascript y MySQL",
+                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "button": {
+                    "source_code": {
+                        "frontend": "#",
+                        "backend": "#"
+                    },
+                    "demo": null
+                }
+            },
+            {
+                "image": "/images/photos/test.jpg",
+                "thematic": "Ecommerce",
+                "title": "React y NodeJs",
+                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "button": {
+                    "source_code": {
+                        "frontend": "#",
+                        "backend": "#"
+                    },
+                    "demo": "#"
+                }
+            },
+            {
+                "image": "/images/photos/test.jpg",
+                "thematic": "Landing page",
+                "title": "HTML CSS",
+                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "button": {
+                    "source_code": {
+                        "frontend": "#",
+                        "backend": "#"
+                    },
+                    "demo": "#"
+                }
+            },
+            {
+                "image": "/images/photos/test.jpg",
+                "thematic": "Landing page",
+                "title": "BOOTSTRAP",
+                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "button": {
+                    "source_code": {
+                        "frontend": "#",
+                        "backend": "#"
+                    },
+                    "demo": "#"
+                }
+            }
+
+        ]
+    },
+    "section3":{
+        "image": "#",
+        "tech": [
+            {
+                "title": "frontend",
+                "images": [
+                    {
+                        "name": "html",
+                        "image": "/images/techicons/html.png"
+                    },
+                    {
+                        "name": "sass",
+                        "image": "/images/techicons/sass.png"
+                    },
+                    {
+                        "name": "bootstrap",
+                        "image": "/images/techicons/bootstrap.png"
+                    },
+                    {
+                        "name": "javascript",
+                        "image": "/images/techicons/javascript.png"
+                    },
+                    {
+                        "name": "react",
+                        "image": "/images/techicons/react.png"
+                    },
+                    {
+                        "name": "redux",
+                        "image": "/images/techicons/redux.png"
+                    },
+                    {
+                        "name": "metrial ui",
+                        "image": "/images/techicons/materialui.png"
+                    },
+                    {
+                        "name": "tailwind css",
+                        "image": "/images/techicons/tailwindcss.png"
+                    },
+                    {
+                        "name": "angular",
+                        "image": "/images/techicons/angular.png"
+                    }
+
+                ]
+            },
+            {
+                "title": "backend",
+                "images": [
+                    {
+                        "name": "nodejs",
+                        "image": "/images/techicons/nodejs.png"
+                    },
+                    {
+                        "name": "typescript",
+                        "image": "/images/techicons/typescript.png"
+                    },
+                    {
+                        "name": "php",
+                        "image": "/images/techicons/php.png"
+                    },
+                    {
+                        "name": "laravel",
+                        "image": "/images/techicons/laravel.png"
+                    },
+                    {
+                        "name": "python",
+                        "image": "/images/techicons/python.png"
+                    },
+                    {
+                        "name": "django",
+                        "image": "/images/techicons/django.png"
+                    }
+                ]
+            },
+            {
+                "title": "databases",
+                "images": [
+                    {
+                        "name": "mysql",
+                        "image": "/images/techicons/mysql.png"
+                    },
+                    {
+                        "name": "mongodb",
+                        "image": "/images/techicons/mongodb.png"
+                    },
+                    {
+                        "name": "postgresql",
+                        "image": "/images/techicons/postgresql.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

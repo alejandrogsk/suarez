@@ -8,6 +8,9 @@ import { useRouter } from "next/router";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+import ProjectsBtn from "../components/ProjectsBtn";
+import SourceCodeLinks from "../components/SourceCodeLinks";
+
 const Home: NextPage = () => {
     let { locale } = useRouter();
     let data = locale === "es" ? HomeSpanish : HomeEnglish;
@@ -54,11 +57,8 @@ const Home: NextPage = () => {
                                 <h4>{project.thematic}</h4>
                                 <h2>{project.title}</h2>
                                 <p>{project.subtitle}</p>
-                                <div className="btn__container">
-                                    <button className="button__projects">
-                                        Ver Más
-                                    </button>
-                                </div>
+                                <SourceCodeLinks sourceCodeLinks={project.button.source_code}/>
+                                <ProjectsBtn demo={project.button.demo} locale={locale}/>
                             </div>
                         </article>
                     ))}

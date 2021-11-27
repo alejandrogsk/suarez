@@ -1,0 +1,14 @@
+.source__links {
+    color: $c-gray;
+    cursor: pointer;
+    display: flex;
+    font-size: .8rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+
+    & > a:last-child { margin-left: .4rem;}
+
+    & > a:hover {
+        color: $c-blue-dark;
+    }
+}

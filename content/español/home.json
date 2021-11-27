@@ -40,7 +40,7 @@
                         "frontend": "#",
                         "backend": "#"
                     },
-                    "demo": "#"
+                    "demo": null
                 }
             },
             {
@@ -50,10 +50,10 @@
                 "subtitle": "Esta es una simple pero funcional landing page desarrollada utilizando el framework Bootstrap, con algunos estilos extra agregados mediante css utilizando el preprocesador SASS.",
                 "button": {
                     "source_code": {
-                        "frontend": "#",
-                        "backend": "#"
+                        "frontend": "https://github.com/alejandrogsk/agency-b-master",
+                        "backend": null
                     },
-                    "demo": "#"
+                    "demo": "https://alejandrogsk.github.io/agency-b-master/"
                 }
             },
             {
@@ -63,10 +63,10 @@
                 "subtitle": "Esta es una landing page construida mediante el uso de vanilla Javascript y Css grid. Al igual que la landing page anterior fue desplegada utilizando github pages.",
                 "button": {
                     "source_code": {
-                        "frontend": "#",
-                        "backend": "#"
+                        "frontend": "https://github.com/alejandrogsk/agency-a-master",
+                        "backend": null
                     },
-                    "demo": "#"
+                    "demo": "https://alejandrogsk.github.io/agency-a-master/"
                 }
             }
 

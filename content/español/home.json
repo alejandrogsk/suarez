@@ -16,7 +16,7 @@
         
         "projects": [
             {
-                "image": "/images/photos/test.jpg",
+                "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",
                 "title": "Tienda online desarrollada utilizando  Php, Javascript y MySQL",
                 "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
@@ -29,7 +29,7 @@
                 }
             },
             {
-                "image": "/images/photos/test.jpg",
+                "image": "/images/photos/ecommerce-node.png",
                 "thematic": "Ecommerce",
                 "title": "React y NodeJs",
                 "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
@@ -42,9 +42,9 @@
                 }
             },
             {
-                "image": "/images/photos/test.jpg",
+                "image": "/images/photos/landing-bootstrap.png",
                 "thematic": "Landing page",
-                "title": "HTML CSS",
+                "title": "BOOTSTRAP",
                 "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
                 "button": {
                     "source_code": {
@@ -55,9 +55,9 @@
                 }
             },
             {
-                "image": "/images/photos/test.jpg",
+                "image": "/images/photos/landing-css.png",
                 "thematic": "Landing page",
-                "title": "BOOTSTRAP",
+                "title": "HTML SCSS",
                 "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
                 "button": {
                     "source_code": {

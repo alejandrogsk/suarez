@@ -33,7 +33,10 @@ const Home: NextPage = () => {
                         <h1>{data.section1.h1}</h1>
                         <h2>
                             {data.section1.h2.start}
+                            <span>{data.section1.h2.middleStart}</span>
+                            {data.section1.h2.middleEnd}
                             <span>{data.section1.h2.end}</span>.
+                            
                         </h2>
                         <button className="button__hero">
                             {data.section1.button.title}
@@ -61,11 +64,11 @@ const Home: NextPage = () => {
                     ))}
                 </section>
 
-                <section className="tech" id="technologies">
+                <section className="tech" >
                   
                   <div className="tech__image"></div>
 
-                  <div className="tech__content">
+                  <div className="tech__content" id="technologies">
                     {
                       data.section3.tech.map((tech, index)=> (
                         <div key={index} className="tech__content--block">

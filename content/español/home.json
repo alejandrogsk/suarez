@@ -4,8 +4,10 @@
         "image":"https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
         "h1": "Hola, soy Alejandro",
         "h2": {
-            "start": "Soy un programador argentino, especializado en desarrollo web ",
-            "end": "full satack"
+            "start": "Soy un desarrollador ",
+            "middleStart": "full satack ",
+            "middleEnd": "argentino, especializado en ",
+            "end": "desarrollo web"
         },
         "button": {
             "title": "descargar cv",
@@ -19,7 +21,7 @@
                 "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",
                 "title": "Tienda online desarrollada utilizando  Php, Javascript y MySQL",
-                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "subtitle": "En este proyecto se utilizó el framework de frontend Next Js acompañado de Tailwind CSS. Del lado del servidor se utilizó el framework de Php laravel para el desarrollo de la API, y se utilizó la base de datos MySQL para almacenar informacion. Los pagos son efectuados mediante la plataforma Stripe.",
                 "button": {
                     "source_code": {
                         "frontend": "#",
@@ -32,7 +34,7 @@
                 "image": "/images/photos/ecommerce-node.png",
                 "thematic": "Ecommerce",
                 "title": "React y NodeJs",
-                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "subtitle": "Esta tienda fue desarrollada utilizando entreramente javascript. El frontend se desarrolló con React Js y Material UI. En cuanto al backend, se utilizaron Node Js con Typescript para la api y MongoDB para la persistencia de datos.Los pagos son efectuados mediante la plataforma Stripe.",
                 "button": {
                     "source_code": {
                         "frontend": "#",
@@ -45,7 +47,7 @@
                 "image": "/images/photos/landing-bootstrap.png",
                 "thematic": "Landing page",
                 "title": "BOOTSTRAP",
-                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "subtitle": "Esta es una simple pero funcional landing page desarrollada utilizando el framework Bootstrap, con algunos estilos extra agregados mediante css utilizando el preprocesador SASS.",
                 "button": {
                     "source_code": {
                         "frontend": "#",
@@ -58,7 +60,7 @@
                 "image": "/images/photos/landing-css.png",
                 "thematic": "Landing page",
                 "title": "HTML SCSS",
-                "subtitle": "Se utilizó el framework de React NextJS del lado del cliente poder tener una carga mas rapida del sitio. Del lado del backend se empleó Laravel para desarrollar la api y MySQL para la base de datos.",
+                "subtitle": "Esta es una landing page construida mediante el uso de vanilla Javascript y Css grid. Al igual que la landing page anterior fue desplegada utilizando github pages.",
                 "button": {
                     "source_code": {
                         "frontend": "#",
@@ -145,7 +147,7 @@
                 ]
             },
             {
-                "title": "databases",
+                "title": "bases de datos",
                 "images": [
                     {
                         "name": "mysql",

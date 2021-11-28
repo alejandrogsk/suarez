@@ -5,5 +5,4 @@ export interface HeaderData{
 
 export interface NavigationItem { title: string; path: string };
 
-
 export interface LanguageI { language: string }

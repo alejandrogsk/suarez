@@ -3,5 +3,14 @@
     color: $c-white;
     text-align: center;
     font-size: .75rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
+
+
+    & > div > span {
+        color: $c-blue;
+        cursor: pointer;
+        &:hover {
+            color: $c-blue-dark;
+        }
+    }
 }

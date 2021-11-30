@@ -12,10 +12,10 @@ const SourceCodeLinks = ({ sourceCodeLinks }: sourceCodeLinks) => {
     return (
         <div className="source__links">
             {
-                frontend !== null && <a target="_blank" href={frontend}>Frontend</a>
+                frontend !== null && <a target="_blank" rel="noreferrer" href={frontend}>Frontend</a>
             }
             {
-                backend !== null && <a href={backend}>Backend</a>
+                backend !== null && <a target="_blank" rel="noreferrer" href={backend}>Backend</a>
             }
         </div>
     )

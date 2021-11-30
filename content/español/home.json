@@ -37,10 +37,10 @@
                 "subtitle": "Esta tienda fue desarrollada utilizando entreramente javascript. El frontend se desarrolló con React Js y Material UI. En cuanto al backend, se utilizaron Node Js con Typescript para la api y MongoDB para la persistencia de datos.Los pagos son efectuados mediante la plataforma Stripe.",
                 "button": {
                     "source_code": {
-                        "frontend": "#",
-                        "backend": "#"
+                        "frontend": "https://github.com/alejandrogsk/ecommerce-node-react-front",
+                        "backend": "https://github.com/alejandrogsk/ecommerce-node-react-back"
                     },
-                    "demo": null
+                    "demo": "https://alejandrogsk.github.io/ecommerce-node-react-front/#/"
                 }
             },
             {

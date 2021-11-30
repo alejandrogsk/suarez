@@ -37,10 +37,10 @@
                 "subtitle": "This store was developed entirely using javascript. The frontend was developed with React Js and Material UI. As for the backend, it will be used in Node Js with Typescript for the api, and MongoDB for data persistence. Payments are made through the Stripe platform.",
                 "button": {
                     "source_code": {
-                        "frontend": "#",
-                        "backend": "#"
+                        "frontend": "https://github.com/alejandrogsk/ecommerce-node-react-front",
+                        "backend": "https://github.com/alejandrogsk/ecommerce-node-react-back"
                     },
-                    "demo": null
+                    "demo": "https://alejandrogsk.github.io/ecommerce-node-react-front/#/"
                 }
             },
             {

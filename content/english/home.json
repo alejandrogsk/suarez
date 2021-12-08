@@ -24,8 +24,8 @@
                 "subtitle": "In this project the frontend framework Next Js was used together with Tailwind CSS. On the server side, the Php laravel framework was used for the development of the API, and a MySQL database was used to store information. Payments are made through the Stripe platform.",
                 "button": {
                     "source_code": {
-                        "frontend": "#",
-                        "backend": "#"
+                        "frontend": "https://github.com/alejandrogsk/ecommerce-front-laravel-next",
+                        "backend": "https://github.com/alejandrogsk/ecommerce-api-laravel-next"
                     },
                     "demo": null
                 }

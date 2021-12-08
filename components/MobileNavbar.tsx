@@ -4,7 +4,8 @@ import Link from "next/link";
 import { NavigationItem } from "../types/navigationTypes";
 
 import * as Scroll from 'react-scroll';
-interface NavigationProps { navigation: NavigationItem[], language: string}
+
+interface NavigationProps { navigation: NavigationItem[], language: string|undefined}
 
 const MobileMenu = ( { navigation, language } : NavigationProps ) => {
     let Linkeable = Scroll.Link;

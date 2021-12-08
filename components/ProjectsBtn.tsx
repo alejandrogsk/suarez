@@ -11,8 +11,6 @@ const ProjectsBtn = ({ demo, locale }: ButtonData) => {
     const router = useRouter();
 
     const handleClick = () => {
-        console.log('click')
-        console.log(demo)
         if (demo === null) {
             if (locale === "es") {
                 Swal.fire({
@@ -22,18 +20,19 @@ const ProjectsBtn = ({ demo, locale }: ButtonData) => {
                     confirmButtonText: "OK",
                     confirmButtonColor: "#00B1D8"
                 });
+            } else {
+                Swal.fire({
+                    title: "Sorry",
+                    text: "We have not deployed it yet",
+                    icon: "info",
+                    confirmButtonText: "OK",
+                    confirmButtonColor: "#00B1D8"
+                });
             }
-            Swal.fire({
-                title: "Sorry",
-                text: "We have not deployed it yet",
-                icon: "info",
-                confirmButtonText: "OK",
-                confirmButtonColor: "#00B1D8"
-            });
+            
         }
 
-        if(demo !==null ){
-            //This could be better
+        if(demo !== null ){
             router.push(demo);
         }
     };

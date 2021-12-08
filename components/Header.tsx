@@ -8,7 +8,14 @@ import MobileMenu from "./MobileNavbar";
 import { LanguageI, HeaderData, NavigationItem } from "../types/navigationTypes";
 
 const Header = ( { language }: LanguageI ) => {
-    let data: HeaderData = language === "es" ? HomeSpanish : HomeEnglish;
+
+
+    let data: HeaderData
+    if(language === "es" || language === undefined){
+        data = HomeSpanish
+    } else {
+        data = HomeEnglish
+    }
 
     let Linkeable = Scroll.Link;
 

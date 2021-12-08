@@ -11,7 +11,7 @@
         },
         "button": {
             "title": "descargar cv",
-            "path": "#"
+            "path": "/pdfs/alejandrosuarezspanish.pdf"
         }
     },
     "section2": {
@@ -83,6 +83,10 @@
                         "image": "/images/techicons/html.png"
                     },
                     {
+                        "name": "css",
+                        "image": "/images/techicons/css.png"
+                    },
+                    {
                         "name": "sass",
                         "image": "/images/techicons/sass.png"
                     },
@@ -109,12 +113,8 @@
                     {
                         "name": "tailwind css",
                         "image": "/images/techicons/tailwindcss.png"
-                    },
-                    {
-                        "name": "angular",
-                        "image": "/images/techicons/angular.png"
                     }
-
+                    
                 ]
             },
             {
@@ -137,32 +137,17 @@
                         "image": "/images/techicons/laravel.png"
                     },
                     {
-                        "name": "python",
-                        "image": "/images/techicons/python.png"
-                    },
-                    {
-                        "name": "django",
-                        "image": "/images/techicons/django.png"
-                    }
-                ]
-            },
-            {
-                "title": "bases de datos",
-                "images": [
-                    {
                         "name": "mysql",
                         "image": "/images/techicons/mysql.png"
                     },
                     {
                         "name": "mongodb",
                         "image": "/images/techicons/mongodb.png"
-                    },
-                    {
-                        "name": "postgresql",
-                        "image": "/images/techicons/postgresql.png"
                     }
+                    
                 ]
             }
+            
         ]
     }
 }

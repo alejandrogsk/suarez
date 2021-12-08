@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 
 import ProjectsBtn from "../components/ProjectsBtn";
 import SourceCodeLinks from "../components/SourceCodeLinks";
+import ButtonCv from "../components/ButtonCv";
 
 const Home: NextPage = () => {
     let { locale } = useRouter();
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Header language={locale || "es"} />
+            <Header language={ locale } />
       
             <main>
                 <section className="hero" id="home">
@@ -41,9 +42,7 @@ const Home: NextPage = () => {
                             <span>{data.section1.h2.end}</span>.
                             
                         </h2>
-                        <button className="button__hero">
-                            {data.section1.button.title}
-                        </button>
+                        <ButtonCv button={data.section1.button}/>
                     </div>
                 </section>
 

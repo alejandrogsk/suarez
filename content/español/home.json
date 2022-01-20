@@ -19,8 +19,8 @@
             {
                 "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",
-                "title": "Tienda online desarrollada utilizando  Php, Javascript y MySQL",
-                "subtitle": "En este proyecto se utilizó el framework de frontend Next Js acompañado de Tailwind CSS. Del lado del servidor se utilizó el framework de Php laravel para el desarrollo de la API, y se utilizó la base de datos MySQL para almacenar informacion. Los pagos son efectuados mediante la plataforma Stripe.",
+                "title": "Tienda online desarrollada utilizando Php, Javascript y MySQL",
+                "subtitle": "En este proyecto se utilizó el framework de frontend Next Js acompañado de Tailwind CSS. Del lado del servidor se utilizó el framework de Php laravel para el desarrollo de la API, y se utilizó la base de datos MySQL para almacenar información. Los pagos son efectuados mediante la plataforma Stripe.",
                 "button": {
                     "source_code": {
                         "frontend": "https://github.com/alejandrogsk/ecommerce-front-laravel-next",
@@ -33,7 +33,7 @@
                 "image": "/images/photos/ecommerce-node.png",
                 "thematic": "Ecommerce",
                 "title": "React y NodeJs",
-                "subtitle": "Esta tienda fue desarrollada utilizando entreramente javascript. El frontend se desarrolló con React Js y Material UI. En cuanto al backend, se utilizaron Node Js con Typescript para la api y MongoDB para la persistencia de datos.Los pagos son efectuados mediante la plataforma Stripe.",
+                "subtitle": "Esta tienda fue desarrollada utilizando enteramente javascript. El frontend se desarrolló con React Js y Material UI. En cuanto al backend, se utilizaron Node Js con Typescript para la api y MongoDB para la persistencia de datos.Los pagos son efectuados mediante la plataforma Stripe.",
                 "button": {
                     "source_code": {
                         "frontend": "https://github.com/alejandrogsk/ecommerce-node-react-front",

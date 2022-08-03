@@ -24,7 +24,8 @@
                 "subtitle": "It is a website for which a custom responsive ui design was made. The NextJs framework was used because it allows us to generate static sites wich is ideal for developing SEO actions.",
                 "button": {
                     "source_code": {
-                        "frontend": "https://github.com/alejandrogsk/planweb/tree/main"
+                        "frontend": "https://github.com/alejandrogsk/planweb/tree/main",
+                        "backend": null
                     },
                     "demo": "https://planweb.digital/"
                 }

@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { NextPage, NextPageContext } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import HomeSpanish from "../content/español/home.json";
@@ -12,9 +12,14 @@ import ProjectsBtn from "../components/ProjectsBtn";
 import SourceCodeLinks from "../components/SourceCodeLinks";
 import ButtonCv from "../components/ButtonCv";
 
-const Home: NextPage = () => {
-    let { locale } = useRouter();
-    let data = locale === "es" ? HomeSpanish : HomeEnglish;
+interface HomeProps{
+  data: any,
+  locale: string
+}
+
+
+const Home: NextPage<HomeProps> = ({data, locale}) => {
+    
 
 
     return (
@@ -47,7 +52,7 @@ const Home: NextPage = () => {
                 </section>
 
                 <section className="projects" id="projects">
-                    {data.section2.projects.map((project, index) => (
+                    {data.section2.projects.map((project:any, index:number) => (
                         <article key={index}>
                             <div>
                                 <img src={project.image} alt={project.title} />
@@ -69,12 +74,12 @@ const Home: NextPage = () => {
 
                   <div className="tech__content" id="technologies">
                     {
-                      data.section3.tech.map((tech, index)=> (
+                      data.section3.tech.map((tech:any, index:number)=> (
                         <div key={index} className="tech__content--block">
                           <h2 className="tech__content--block__title">{tech.title}</h2>
                           <div className="tech__content--block__grid">
                           {
-                            tech.images.map((photo, i)=> (
+                            tech.images.map((photo:any, i:number)=> (
                               <div key={i}>
                                 <Image 
                                   src={photo.image} 
@@ -97,3 +102,14 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export async function getStaticProps(context:NextPageContext) {
+  const data = context.locale === "es" ? HomeSpanish : HomeEnglish;
+
+  return {
+    props: {
+      data,
+      locale: context.locale
+    }, 
+  }
+}

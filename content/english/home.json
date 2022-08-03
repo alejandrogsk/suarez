@@ -18,6 +18,20 @@
         
         "projects": [
             {
+                "image": "/images/photos/agency.png",
+                "thematic": "Agency",
+                "title": "Website developed with NextJS",
+                "subtitle": "It is a website for which a custom responsive ui design was made. The NextJs framework was used because it allows us to generate static sites wich is ideal for developing SEO actions.",
+                "button": {
+                    "source_code": {
+                        "frontend": "https://github.com/alejandrogsk/planweb/tree/main"
+                    },
+                    "demo": "https://planweb.digital/"
+                }
+            },
+
+
+            {
                 "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",
                 "title": "Online store developed using Php, Javascript and MySQL",

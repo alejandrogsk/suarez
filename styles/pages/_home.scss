@@ -46,8 +46,8 @@
 .projects {
   padding: 8rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
 
   background-color: $c-gray-light;
 
@@ -57,38 +57,8 @@
   @include respond( phone) { grid-template-columns: 1fr;}
 
   & > article {
-
-    
-    //Div with my image <div><img/></div>
-    & > div:first-child > img { display: block; max-width: 100%; height: auto;}
-
-    //Div with text
-    & > div:last-child {
-      & > h4{
-        color: $c-blue;
-        margin: 3rem 0 1rem 0;
-        font-size: 1rem;
-        text-transform: uppercase;
-        @include respond( tab-port ) { font-size:.9rem;margin: 1rem 0; }
-        @include respond( phone-tab ) { margin: .5rem 0; }
-      }
-
-      & > h2 {
-        @include respond( tab-port ) { font-size: 1.2rem; }
-      }
-
-      & > p {
-        margin: 1rem 0 1rem 0;
-        color: $c-gray;
-
-        @include respond( tab-port ) { margin: 1rem 0; }
-      }
-      
-
-    }
-
     &:first-child{
-      grid-column: 1/4;
+      grid-column: 1/3;
       
       display: grid;
       grid-template-columns: repeat(6,1fr);
@@ -118,6 +88,40 @@
 
       
     }
+
+
+    grid-column: auto;
+
+
+    //Div with my image <div><img/></div>
+    & > div:first-child > img { display: block; max-width: 100%; height: auto;}
+
+    //Div with text
+    & > div:last-child {
+      & > h4{
+        color: $c-blue;
+        margin: 3rem 0 1rem 0;
+        font-size: 1rem;
+        text-transform: uppercase;
+        @include respond( tab-port ) { font-size:.9rem;margin: 1rem 0; }
+        @include respond( phone-tab ) { margin: .5rem 0; }
+      }
+
+      & > h2 {
+        @include respond( tab-port ) { font-size: 1.2rem; }
+      }
+
+      & > p {
+        margin: 1rem 0 1rem 0;
+        color: $c-gray;
+
+        @include respond( tab-port ) { margin: 1rem 0; }
+      }
+      
+
+    }
+
+    
     
     
 

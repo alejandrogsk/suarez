@@ -17,6 +17,21 @@
         
         "projects": [
             {
+                "image": "/images/photos/agency.png",
+                "thematic": "Agencia",
+                "title": "Pagina web desarrollada con NextJS",
+                "subtitle": "Es un sitio web para el cual se realizó un diseño ui responsive a medida. Se utilizó el framework NextJs porque nos permite realizar generación de sitios estáticos lo que es ideal para desarrollar acciones de SEO.",
+                "button": {
+                    "source_code": {
+                        "frontend": "https://github.com/alejandrogsk/planweb/tree/main",
+                        "backend": null
+                    },
+                    "demo": "https://planweb.digital/"
+                }
+            },
+
+
+            {
                 "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",
                 "title": "Tienda online desarrollada utilizando Php, Javascript y MySQL",

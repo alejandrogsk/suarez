@@ -105,7 +105,6 @@ export default Home;
 
 export async function getStaticProps(context:NextPageContext) {
   const data = context.locale === "es" ? HomeSpanish : HomeEnglish;
-
   return {
     props: {
       data,

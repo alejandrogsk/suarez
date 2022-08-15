@@ -15,7 +15,7 @@ const ProjectsBtn = ({ demo, locale }: ButtonData) => {
             if (locale === "es") {
                 Swal.fire({
                     title: "Lo siento",
-                    text: "Aún no lo hemos desplegado",
+                    text: "Aún no está desplegado",
                     icon: "info",
                     confirmButtonText: "OK",
                     confirmButtonColor: "#00B1D8"
@@ -23,7 +23,7 @@ const ProjectsBtn = ({ demo, locale }: ButtonData) => {
             } else {
                 Swal.fire({
                     title: "Sorry",
-                    text: "We have not deployed it yet",
+                    text: "We  isn't deployed it yet",
                     icon: "info",
                     confirmButtonText: "OK",
                     confirmButtonColor: "#00B1D8"

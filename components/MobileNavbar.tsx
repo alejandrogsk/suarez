@@ -41,7 +41,7 @@ const MobileMenu = ( { navigation, language } : NavigationProps ) => {
                              duration={1000}
                              onClick={handleClick}
                             >
-                                <a className="navbar__responsive--link">
+                                <a className="navbar__responsive--link" >
                                     {item.title}
                                 </a>
                             </Linkeable>

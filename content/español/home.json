@@ -1,6 +1,6 @@
 {
     "section1": {
-        "image":"/images/photos/ags.jpg",
+        "image":"/images/photos/ags.png",
         "h1": "Hola, soy Alejandro",
         "h2": {
             "start": "Soy un desarrollador ",
@@ -29,8 +29,19 @@
                     "demo": "https://planweb.digital/"
                 }
             },
-
-
+            {
+                "image": "/images/photos/next-woocommerce.png",
+                "thematic": "Ecommerce",
+                "title": "NextJS Wordpress",
+                "subtitle": "Mediante una arquitectura Headless, se puede crear una plataforma de ecommerce con las ventajas de una plataforma madura como Wordpress y un framework moderno como NextJs.",
+                "button": {
+                    "source_code": {
+                        "frontend": "https://github.com/alejandrogsk/next-woocommerce",
+                        "backend": null
+                    },
+                    "demo": null
+                }
+            },
             {
                 "image": "/images/photos/cart.png",
                 "thematic": "Ecommerce",

@@ -20,7 +20,7 @@
                 "image": "/images/photos/agency.png",
                 "thematic": "Agencia",
                 "title": "Pagina web desarrollada con NextJS",
-                "subtitle": "Es un sitio web para el cual se realizó un diseño ui responsive a medida. Se utilizó el framework NextJs porque nos permite realizar generación de sitios estáticos lo que es ideal para desarrollar acciones de SEO.",
+                "subtitle": "Es un sitio web para el cual se realizó un diseño ui responsive a medida en figma. Se utilizó el framework NextJs porque nos permite realizar generación de sitios estáticos lo que es ideal para desarrollar acciones de SEO. Para el diseño se utilizó tailwind CSS",
                 "button": {
                     "source_code": {
                         "frontend": "https://github.com/alejandrogsk/planweb/tree/main",

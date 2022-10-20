@@ -20,7 +20,7 @@
                 "image": "/images/photos/agency.png",
                 "thematic": "Agency",
                 "title": "Website developed with NextJS",
-                "subtitle": "It is a website for which a custom responsive ui design was made. The NextJs framework was used because it allows us to generate static sites wich is ideal for developing SEO actions.",
+                "subtitle": "It is a website for which a custom responsive ui design was made in figma. The NextJs framework was used because it allows us to generate static sites, which is ideal for developing SEO actions. For the visual aspects, tailwind CSS was used.",
                 "button": {
                     "source_code": {
                         "frontend": "https://github.com/alejandrogsk/planweb/tree/main",
